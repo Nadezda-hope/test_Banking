@@ -1,0 +1,14 @@
+.button {
+  color: $primary-color;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-out;
+}
+
+
+.button:hover,
+.button:focus {
+  box-shadow: 0 0 10px white;
+}

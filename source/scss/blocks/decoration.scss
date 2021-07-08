@@ -1,0 +1,46 @@
+.decoration__icons {
+  position: absolute;
+  top: 30%;
+  left: 3.5%;
+}
+
+.decoration__icon {
+  &::before {    
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+  }
+
+  &--procent::before {
+    width: 53px;
+    height: 51px;
+    top: -68px;
+    left: -3px;
+    background-image: url("./../img/procent-bg-img.png");
+  }
+
+  &--basket::before {
+    width: 64px;
+    height: 45px;
+    top: 42px;
+    left: 72px;
+    background-image: url("./../img/basket-bg-img.png");
+  }
+
+  &--dollar::before {
+    width: 47px;
+    height: 68px;
+    top: 158px;
+    left: 75px;
+    background-image: url("./../img/dollar-bg-img.png");
+  }
+
+  &--shopping::before {
+    width: 83px;
+    height: 91px;
+    top: 70px;
+    left: -60px;
+    background-image: url("./../img/shopping-bg-img.png");
+  }
+}

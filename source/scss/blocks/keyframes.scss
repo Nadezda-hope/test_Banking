@@ -1,0 +1,43 @@
+@keyframes hover-before {
+  from {
+    background: #ffffff;
+    height: 100%;
+    top: 0;
+  }
+
+  to {
+    background: linear-gradient(to bottom right, $gradien-header, $gradient-color);
+    height: 124.5%; 
+    top: -12%;   
+  }
+}
+
+@keyframes hover-text {
+  from {
+    color: $secondary-color-text;
+  }
+
+  to {
+    color: #ffffff;
+  }
+}
+
+@keyframes hover-title {
+  from {
+    color: #000000;
+  }
+
+  to {
+    color: #ffffff;
+  }
+}
+
+@keyframes menu {
+  from {
+    right: -80%;
+  }
+
+  to {
+    right: 0;
+  }
+}

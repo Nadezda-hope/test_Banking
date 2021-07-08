@@ -1,0 +1,23 @@
+.shadow-cards {
+  position: absolute;
+  top: 105px;
+  right: 0;
+  width: 330px;
+  height: 569px;
+}
+
+.shadow-cards__item {
+  position: inherit;
+  top: 82px;
+  right: -238px;
+  width: 330px;
+  height: 569px;
+  background-image: url("./../img/rounded-card.png");
+  background-position: left;
+
+  &--bottom {
+    background-image: url("./../img/rounded-card.png");
+    top: 204px;
+    right: -284px;
+  }
+}

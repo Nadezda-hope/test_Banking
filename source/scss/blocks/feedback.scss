@@ -1,0 +1,36 @@
+.feedback__wrapper {
+  padding-top: 134px;
+  padding-bottom: 148px;
+}
+
+
+.feedback__title {
+  margin: 0;
+  margin-bottom: 54px;
+  font-size: 30px;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 1024px) {
+  .feedback__wrapper {
+    padding-top: 44px;
+    padding-bottom: 42px;
+  }
+
+  .feedback__title {
+    margin-bottom: 34px;
+  }
+}
+
+@media (max-width: 767px) {
+  .feedback__wrapper {
+    padding-top: 34px;
+    padding-bottom: 50px;
+  }
+
+  .feedback__title {
+    margin-bottom: 24px;
+    text-align: center;
+  }
+}
